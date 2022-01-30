@@ -1,2 +1,2 @@
-# my project bus booking
+# Bus Booking Project
 
