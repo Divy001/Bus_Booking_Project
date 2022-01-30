@@ -1,0 +1,33 @@
+{
+  "name": "project_bus_booking",
+  "version": "1.0.0",
+  "description": "project_bus_booking",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aman Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^14.3.2",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.14",
+    "mongoose-type-url": "^2.1.0",
+    "node-datetime": "^2.1.2",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15",
+    "redis": "^3.1.2",
+    "response-time": "^2.3.2",
+    "shortid": "^2.2.16",
+    "unique-random": "^3.0.0",
+    "valid-url": "^1.0.9"
+  }
+}
