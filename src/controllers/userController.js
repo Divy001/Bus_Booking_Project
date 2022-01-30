@@ -73,7 +73,7 @@ const userLogin = async (req, res) => {
     res.header('user-login-key', generatedToken);
     return res.status(200).send({
       status: true,
-      message: `${first_Name} ${last_Name} you have logged in Succesfully`,
+      message: `${first_Name} ${last_Name} you have logged in Successful`,
       data: {
         userId: user._id,
         token: generatedToken,
